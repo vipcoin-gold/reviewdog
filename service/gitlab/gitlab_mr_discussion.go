@@ -8,7 +8,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/xanzy/go-gitlab"
+	"github.com/vipcoin-gold/go-gitlab"
 	"golang.org/x/sync/errgroup"
 
 	"github.com/reviewdog/reviewdog"
@@ -25,8 +25,9 @@ const (
 // MergeRequestDiscussionCommenter is a comment and diff service for GitLab MergeRequest.
 //
 // API:
-//  https://docs.gitlab.com/ee/api/discussions.html#create-new-merge-request-discussion
-//  POST /projects/:id/merge_requests/:merge_request_iid/discussions
+//
+//	https://docs.gitlab.com/ee/api/discussions.html#create-new-merge-request-discussion
+//	POST /projects/:id/merge_requests/:merge_request_iid/discussions
 type MergeRequestDiscussionCommenter struct {
 	cli      *gitlab.Client
 	pr       int

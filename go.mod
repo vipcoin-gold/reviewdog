@@ -24,7 +24,6 @@ require (
 	github.com/reviewdog/go-bitbucket v0.0.0-20201024094602-708c3f6a7de0
 	github.com/stretchr/testify v1.8.1
 	github.com/vvakame/sdlog v0.0.0-20200409072131-7c0d359efddc
-	github.com/xanzy/go-gitlab v0.79.1
 	go.opencensus.io v0.24.0
 	golang.org/x/build v0.0.0-20230202190423-357881e10382
 	golang.org/x/oauth2 v0.4.0
@@ -32,6 +31,8 @@ require (
 	google.golang.org/protobuf v1.28.1
 	gopkg.in/yaml.v2 v2.4.0
 )
+
+require github.com/vipcoin-gold/go-gitlab v1.0.1
 
 require (
 	cloud.google.com/go/compute v1.14.0 // indirect

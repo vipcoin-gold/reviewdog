@@ -11,11 +11,12 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
+	"github.com/vipcoin-gold/go-gitlab"
+
 	"github.com/reviewdog/reviewdog"
 	"github.com/reviewdog/reviewdog/filter"
 	"github.com/reviewdog/reviewdog/proto/rdf"
 	"github.com/reviewdog/reviewdog/service/commentutil"
-	"github.com/xanzy/go-gitlab"
 )
 
 func TestGitLabMergeRequestDiscussionCommenter_Post_Flush_review_api(t *testing.T) {

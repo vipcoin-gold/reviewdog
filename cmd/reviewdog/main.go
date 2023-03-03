@@ -22,7 +22,7 @@ import (
 	"github.com/google/go-github/v49/github"
 	"github.com/mattn/go-shellwords"
 	"github.com/reviewdog/errorformat/fmts"
-	"github.com/xanzy/go-gitlab"
+	"github.com/vipcoin-gold/go-gitlab"
 
 	"github.com/reviewdog/reviewdog"
 	"github.com/reviewdog/reviewdog/cienv"

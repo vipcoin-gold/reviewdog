@@ -9,7 +9,7 @@ import (
 	"testing"
 
 	"github.com/kylelemons/godebug/pretty"
-	"github.com/xanzy/go-gitlab"
+	"github.com/vipcoin-gold/go-gitlab"
 
 	"github.com/reviewdog/reviewdog"
 	"github.com/reviewdog/reviewdog/filter"
