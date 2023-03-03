@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/reviewdog/reviewdog/filter"
-	"github.com/reviewdog/reviewdog/proto/rdf"
+	"github.com/vipcoin-gold/reviewdog/filter"
+	"github.com/vipcoin-gold/reviewdog/proto/rdf"
 
-	"github.com/reviewdog/reviewdog"
+	"github.com/vipcoin-gold/reviewdog"
 
 	"github.com/stretchr/testify/suite"
 )

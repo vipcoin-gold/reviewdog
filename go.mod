@@ -1,4 +1,4 @@
-module github.com/reviewdog/reviewdog
+module github.com/vipcoin-gold/reviewdog
 
 go 1.19
 

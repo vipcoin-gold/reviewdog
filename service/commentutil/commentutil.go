@@ -5,8 +5,8 @@ import (
 	"log"
 	"strings"
 
-	"github.com/reviewdog/reviewdog"
-	"github.com/reviewdog/reviewdog/proto/rdf"
+	"github.com/vipcoin-gold/reviewdog"
+	"github.com/vipcoin-gold/reviewdog/proto/rdf"
 )
 
 // `path` to `position`(Lnum for new file) to comment `body`s

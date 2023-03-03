@@ -10,12 +10,12 @@ import (
 
 	"github.com/google/go-github/v49/github"
 
-	"github.com/reviewdog/reviewdog"
-	"github.com/reviewdog/reviewdog/cienv"
-	"github.com/reviewdog/reviewdog/proto/rdf"
-	"github.com/reviewdog/reviewdog/service/commentutil"
-	"github.com/reviewdog/reviewdog/service/github/githubutils"
-	"github.com/reviewdog/reviewdog/service/serviceutil"
+	"github.com/vipcoin-gold/reviewdog"
+	"github.com/vipcoin-gold/reviewdog/cienv"
+	"github.com/vipcoin-gold/reviewdog/proto/rdf"
+	"github.com/vipcoin-gold/reviewdog/service/commentutil"
+	"github.com/vipcoin-gold/reviewdog/service/github/githubutils"
+	"github.com/vipcoin-gold/reviewdog/service/serviceutil"
 )
 
 var _ reviewdog.CommentService = &PullRequest{}

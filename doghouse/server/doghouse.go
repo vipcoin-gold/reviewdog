@@ -10,11 +10,11 @@ import (
 
 	"github.com/google/go-github/v49/github"
 
-	"github.com/reviewdog/reviewdog/diff"
-	"github.com/reviewdog/reviewdog/doghouse"
-	"github.com/reviewdog/reviewdog/filter"
-	"github.com/reviewdog/reviewdog/proto/rdf"
-	"github.com/reviewdog/reviewdog/service/github/githubutils"
+	"github.com/vipcoin-gold/reviewdog/diff"
+	"github.com/vipcoin-gold/reviewdog/doghouse"
+	"github.com/vipcoin-gold/reviewdog/filter"
+	"github.com/vipcoin-gold/reviewdog/proto/rdf"
+	"github.com/vipcoin-gold/reviewdog/service/github/githubutils"
 )
 
 // GitHub check runs API cannot handle too large requests.

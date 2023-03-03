@@ -14,10 +14,10 @@ import (
 	"github.com/kylelemons/godebug/pretty"
 	"golang.org/x/oauth2"
 
-	"github.com/reviewdog/reviewdog"
-	"github.com/reviewdog/reviewdog/filter"
-	"github.com/reviewdog/reviewdog/proto/rdf"
-	"github.com/reviewdog/reviewdog/service/commentutil"
+	"github.com/vipcoin-gold/reviewdog"
+	"github.com/vipcoin-gold/reviewdog/filter"
+	"github.com/vipcoin-gold/reviewdog/proto/rdf"
+	"github.com/vipcoin-gold/reviewdog/service/commentutil"
 )
 
 const notokenSkipTestMes = "skipping test (requires actual Personal access tokens. export REVIEWDOG_TEST_GITHUB_API_TOKEN=<GitHub Personal Access Token>)"

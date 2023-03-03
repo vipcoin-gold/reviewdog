@@ -7,10 +7,10 @@ import (
 	"io"
 	"os"
 
-	"github.com/reviewdog/reviewdog/diff"
-	"github.com/reviewdog/reviewdog/filter"
-	"github.com/reviewdog/reviewdog/parser"
-	"github.com/reviewdog/reviewdog/proto/rdf"
+	"github.com/vipcoin-gold/reviewdog/diff"
+	"github.com/vipcoin-gold/reviewdog/filter"
+	"github.com/vipcoin-gold/reviewdog/parser"
+	"github.com/vipcoin-gold/reviewdog/proto/rdf"
 )
 
 // Reviewdog represents review dog application which parses result of compiler

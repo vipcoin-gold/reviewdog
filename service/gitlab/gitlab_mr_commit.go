@@ -11,9 +11,9 @@ import (
 	"github.com/vipcoin-gold/go-gitlab"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/reviewdog/reviewdog"
-	"github.com/reviewdog/reviewdog/service/commentutil"
-	"github.com/reviewdog/reviewdog/service/serviceutil"
+	"github.com/vipcoin-gold/reviewdog"
+	"github.com/vipcoin-gold/reviewdog/service/commentutil"
+	"github.com/vipcoin-gold/reviewdog/service/serviceutil"
 )
 
 var _ reviewdog.CommentService = &MergeRequestCommitCommenter{}

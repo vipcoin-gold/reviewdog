@@ -5,8 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/reviewdog/reviewdog/proto/rdf"
 	"google.golang.org/protobuf/proto"
+
+	"github.com/vipcoin-gold/reviewdog/proto/rdf"
 )
 
 func hash(b []byte) string {

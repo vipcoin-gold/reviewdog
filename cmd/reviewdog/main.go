@@ -24,17 +24,17 @@ import (
 	"github.com/reviewdog/errorformat/fmts"
 	"github.com/vipcoin-gold/go-gitlab"
 
-	"github.com/reviewdog/reviewdog"
-	"github.com/reviewdog/reviewdog/cienv"
-	"github.com/reviewdog/reviewdog/commands"
-	"github.com/reviewdog/reviewdog/filter"
-	"github.com/reviewdog/reviewdog/parser"
-	"github.com/reviewdog/reviewdog/project"
-	bbservice "github.com/reviewdog/reviewdog/service/bitbucket"
-	gerritservice "github.com/reviewdog/reviewdog/service/gerrit"
-	githubservice "github.com/reviewdog/reviewdog/service/github"
-	"github.com/reviewdog/reviewdog/service/github/githubutils"
-	gitlabservice "github.com/reviewdog/reviewdog/service/gitlab"
+	"github.com/vipcoin-gold/reviewdog"
+	"github.com/vipcoin-gold/reviewdog/cienv"
+	"github.com/vipcoin-gold/reviewdog/commands"
+	"github.com/vipcoin-gold/reviewdog/filter"
+	"github.com/vipcoin-gold/reviewdog/parser"
+	"github.com/vipcoin-gold/reviewdog/project"
+	bbservice "github.com/vipcoin-gold/reviewdog/service/bitbucket"
+	gerritservice "github.com/vipcoin-gold/reviewdog/service/gerrit"
+	githubservice "github.com/vipcoin-gold/reviewdog/service/github"
+	"github.com/vipcoin-gold/reviewdog/service/github/githubutils"
+	gitlabservice "github.com/vipcoin-gold/reviewdog/service/gitlab"
 )
 
 const usageMessage = "" +
