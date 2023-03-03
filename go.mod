@@ -32,7 +32,7 @@ require (
 	gopkg.in/yaml.v2 v2.4.0
 )
 
-require github.com/vipcoin-gold/go-gitlab v1.0.1
+require github.com/vipcoin-gold/go-gitlab v1.0.2
 
 require (
 	cloud.google.com/go/compute v1.14.0 // indirect
